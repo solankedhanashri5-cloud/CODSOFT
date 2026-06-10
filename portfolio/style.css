@@ -1,0 +1,135 @@
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, sans-serif;
+}
+
+body{
+    background:#f4f4f4;
+    color:#333;
+}
+
+
+.header-content{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    max-width:1000px;
+    margin:auto;
+    padding:20px;
+}
+
+
+.header-content{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    max-width:1000px;
+    margin:auto;
+    padding:20px;
+}
+
+
+.header-text{
+    background-color:#d9d9d9;   /* Grey background */
+    color:black;
+    padding:30px;
+    border-radius:15px;
+    box-shadow:0px 4px 10px rgba(0,0,0,0.2);
+    text-align:left;
+    width:55%;
+}
+
+/* Black Text */
+.header-text h1,
+.header-text h3,
+.header-text p{
+    color:black;
+}
+
+.header-text h1{
+    font-size:50px;
+    margin-bottom:10px;
+}
+
+.header-text h3{
+    font-size:24px;
+    margin-bottom:10px;
+}
+
+/* Photo */
+.header-img{
+    width:250px;
+    height:250px;
+    border-radius:50%;
+    object-fit:cover;
+    border:5px solid white;
+}
+
+/* Hire Me Button */
+.hire-btn{
+    display:inline-block;
+    margin-top:20px;
+    padding:12px 25px;
+    background:black;
+    color:white;
+    text-decoration:none;
+    border-radius:30px;
+    font-weight:bold;
+}
+
+.hire-btn:hover{
+    background:#333;
+}
+
+
+
+.tagline{
+    margin-top:10px;
+    font-style:italic;
+}
+
+section{
+    background:white;
+    margin:20px;
+    padding:25px;
+    border-radius:10px;
+    box-shadow:0 2px 8px rgba(0,0,0,0.1);
+}
+
+h2{
+    color:#4a4e69;
+    margin-bottom:15px;
+}
+
+.skill{
+    display:inline-block;
+    background:#4a4e69;
+    color:white;
+    padding:10px 15px;
+    margin:5px;
+    border-radius:5px;
+}
+
+.btn{
+    display:inline-block;
+    padding:10px 20px;
+    background:#4a4e69;
+    color:white;
+    text-decoration:none;
+    border-radius:5px;
+}
+
+.btn:hover{
+    background:#22223b;
+}
+
+footer{
+    text-align:center;
+    background:#4a4e69;
+    color:white;
+    padding:15px;
+    margin-top:20px;
+}
